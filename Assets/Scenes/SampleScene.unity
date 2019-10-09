@@ -206,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266165068}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0621, y: 0.029399998, z: 0}
+  m_LocalPosition: {x: 0.0621, y: 0.029399998, z: 20}
   m_LocalScale: {x: 1.2105235, y: 1.3047922, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841877554}
   m_Layer: 0
-  m_Name: SpawnPoint1
+  m_Name: SpawnPointCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,11 +385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.057
       objectReference: {fileID: 0}
     - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.07
       objectReference: {fileID: 0}
     - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -426,6 +426,18 @@ PrefabInstance:
     - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16777201
+      objectReference: {fileID: 0}
+    - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.186
+      objectReference: {fileID: 0}
+    - target: {fileID: 404160, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.186
       objectReference: {fileID: 0}
     - target: {fileID: 11434608, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
       propertyPath: scaleCurve.m_Curve.Array.size
@@ -518,6 +530,91 @@ PrefabInstance:
     - target: {fileID: 11434608, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
       propertyPath: scaleCurve.m_Curve.Array.data[3].value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 21231812, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 74d7f9167fe864944b8f08ae1fe24d2c,
+        type: 3}
+    - target: {fileID: 21231812, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_Size.x
+      value: 6.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 21231812, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_Size.y
+      value: 10.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 21231812, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].outWeight
+      value: 0.59166664
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].value
+      value: 1.0000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].value
+      value: 0.002357483
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].inSlope
+      value: -0.000002417766
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].outSlope
+      value: -0.000002417766
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].inSlope
+      value: 0.0023567677
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[1].outSlope
+      value: 0.0023567677
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[2].inSlope
+      value: 0.006083827
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[2].outSlope
+      value: 0.006083827
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[2].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11485408, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
+      propertyPath: scaleCurve.m_Curve.Array.data[2].inWeight
+      value: 0.775
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9338f07c8abfa6f46b5a2c1ef02800c0, type: 3}
