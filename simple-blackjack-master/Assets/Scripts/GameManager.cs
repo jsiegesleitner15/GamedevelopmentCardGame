@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour {
 		
 		resetBalanceBtn.onClick.AddListener(delegate {
 			playerMoney = 1000;
-			betSlider.maxValue = playerMoney;
+			betSlider.maxValue = playerMoney / 10;
 		});
 	}
 	
@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour {
 			playerMoney -= currentBet;
 			if (playerMoney < 0) {
 				playerMoney += currentBet;
-				betSlider.maxValue = playerMoney;
+				betSlider.maxValue = playerMoney / 10;
 				return;
 			}
 
@@ -209,7 +209,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	private void updateCurrentBet() {
-		currentBet = (int) betSlider.value;
+		currentBet = ((int) betSlider.value) * 10;
 		textSelectingBet.text = "$" + currentBet.ToString();
 	}
 
@@ -269,7 +269,7 @@ public class GameManager : MonoBehaviour {
 		primaryBtn.GetComponentInChildren<Text>().text = "DEAL";
 		secondaryBtn.gameObject.SetActive(false);
 		betSlider.gameObject.SetActive(true);
-		betSlider.maxValue = playerMoney;
+		betSlider.maxValue = playerMoney / 10;
 		textSelectingBet.gameObject.SetActive(true);
 		textSelectingBet.text = "$" + currentBet.ToString();
 		textPlaceYourBet.gameObject.SetActive(true);
